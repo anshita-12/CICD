@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        MAVEN_BIN = 'C:\\Program Files\\apache-maven-3.9.16\\bin'
+        MAVEN_BIN = 'C:\\Program Files\\apache-maven-3.9.16'
         TOMCAT_HOME = 'C:\\Users\\Anshita Srivastava\\Downloads\\apache-tomcat-9.0.120\\apache-tomcat-9.0.120'
         APP_NAME = 'CICD'
     }
